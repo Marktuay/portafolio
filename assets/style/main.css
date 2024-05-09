@@ -1,0 +1,13 @@
+@import url(/assets/style/about.css);
+@import url(/assets/style/contact.css);
+@import url(/assets/style/experiencie.css);
+@import url(/assets/style/footer.css);
+@import url(/assets/style/header.css);
+@import url(/assets/style/hobbies.css);
+@import url(/assets/style/menu.css);
+@import url(/assets/style/skill.css);
+@import url(/assets/style/study.css);
+
+body{
+    background-color: #fff;
+}

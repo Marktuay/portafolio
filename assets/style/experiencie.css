@@ -1,0 +1,102 @@
+
+
+.experience__section__title{
+    
+    background: linear-gradient(90deg, #4991e6, #c96675);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.experience__title{
+    font-size: 20px;
+    background: linear-gradient(90deg, #4991e6, #c96675);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.experience__text{
+    font-size: 16px;
+    background: linear-gradient(90deg, #4991e6, #c96675);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.experiencie__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.experiencia__botao--repo{
+    border: 1px solid #c96675, #4991e6;
+    background: transparent ;
+    color:#68fb30;
+    border-radius: 15px;
+    padding: 8px;
+
+}
+
+.experience__botao--demo{
+    border: 1px solid #c96675, #4991e6;
+    background: transparent ;
+    color:#68fb30;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.experiencie__box__reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
+/*Mobile*/
+@media (max-width: 425px) {
+    .experience{
+        width: 425px;
+        overflow-x: hidden;
+    }
+    .experience__section__title{
+        text-align: center;
+    }
+    .experiencie__box, .experiencie__box__reverse{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .experience__img{
+        width: 350px;
+        height: auto;
+        margin: 10px;
+    }
+    .experience__title, .experience__text, .experience__description{
+        text-align: center;
+    }
+
+    .formcontato__title, .formcontato__subtext{
+        margin-left: 15px;
+    }
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    .experience{
+        max-width: 768px;
+        margin: 10px;
+    }
+    .experience__section__title{
+        text-align: center;
+    }
+    .experiencie__box, .experiencie__box__reverse{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

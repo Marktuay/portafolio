@@ -1,0 +1,55 @@
+
+
+
+
+.about__title{
+    background: linear-gradient(90deg, #4991e6, #c96675, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    mix-blend-mode: screen;
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+.about__paragraph{
+    background: linear-gradient(90deg, #4991e6, #c96675);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    mix-blend-mode: screen;
+
+}
+
+
+
+
+/*Tablet*/
+@media (max-width: 768px) {
+        .about{
+            max-width: 768px;
+            margin: 15px;
+        }
+        .about__paragraph{
+            width: 728px;
+        }
+
+    }
+
+
+/*Mobile*/
+@media (max-width: 425px) {
+    
+    .about{
+        width: 425px;
+        overflow-x: hidden;
+    }
+
+    .about__title{
+        margin-left: 8px;
+    }
+
+    .about__paragraph{
+        margin-left: 8px;
+        width: 390px;
+    }
+}
+

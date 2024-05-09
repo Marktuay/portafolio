@@ -1,0 +1,100 @@
+
+.academic__title {
+    height: 150px;
+    background: linear-gradient(90deg, #4991e6, #c96675, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.academic__courses{
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap:20px;
+    align-items: center;
+}
+
+.academic__courses__box{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: transparent;
+    height: 130px;
+    width: 130px;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.academic__courses__item__title, .academic__courses__item__subtitle{
+    background: linear-gradient(90deg, #4991e6, #c96675);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+
+/*Mobile*/
+@media (max-width: 425px) {
+
+    .academic{
+        width: 425px;
+        overflow-x: hidden;
+    }
+    .academic__title{
+        text-align: center;
+    }
+
+    .academic__courses{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        gap: 80px;
+    }
+    .academic__courses__box{
+        background-color: transparent;
+        justify-content: center;
+    }
+    .academic__courses__item__title{
+        text-align: center;
+    }
+    .academic__courses__item__subtitle{
+        text-align: center;
+    }
+
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    .academic{
+        max-width: 768px;
+        margin: 10px;
+    }
+    .academic__title{
+        text-align: center;
+        height: auto;
+    }
+    .academic__courses{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:20px;
+        
+    }
+    .academic__courses__box{
+        background-color: transparent;
+        justify-content: center;
+        width: 200px;
+        height: auto;
+    }
+    .academic__courses__list{
+        width:auto;
+    }
+    .academic__courses__item__img, .academic__courses__item__title, .academic__courses__item__subtitle{
+        text-align: center;
+    }
+
+
+}

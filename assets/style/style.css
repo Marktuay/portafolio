@@ -1,0 +1,174 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+/* @import*/
+
+@import url(/assets/style/about.css);
+@import url(/assets/style/contact.css);
+@import url(/assets/style/experiencie.css);
+@import url(/assets/style/footer.css);
+@import url(/assets/style/header.css);
+@import url(/assets/style/hobbies.css);
+@import url(/assets/style/menu.css);
+@import url(/assets/style/skill.css);
+@import url(/assets/style/study.css);
+
+body{
+    background-color: #f2f1ed;
+    color:#fff;
+}
+
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fondo: #000;
+   --cor-de-link: #68fb30;
+   --cor-de-link-visited: aquamarine ;
+   --cor-h3--title: 26px;
+   --cor-h2--title: 30px;
+}
+  
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fondo) ;
+    font-family: 'Raleway';
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1;
+    width: 1024px;
+    left: 50%;
+    top:10px;
+    
+}
+ol, ul,li {
+    list-style: none;
+    padding: 0;
+}
+a:link {
+    color: var(--cor-de-link);
+    text-decoration: none;
+    }
+a:visited {
+    color: var(--cor-de-link-visited);
+    text-decoration: none;
+}
+
+h3 {
+    font-size:  var(--cor-h3--title);
+}
+h2 {
+    font-size: var(--cor-h2--title);
+}
+
+
+           
+
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sección Menu*/
+
+section.menu{
+    
+
+}
+
+/*Sección Title*/
+
+section.title{
+
+}
+
+/*Sección About*/
+
+section.about{
+
+}
+
+/*Sección Hobbies*/
+
+section.hobbies{
+    
+}
+
+/* Experiencia Académica*/
+
+section.academic{
+
+}
+
+/* experiencia*/
+
+section.experience{
+
+}
+
+/*Contacto*/
+
+section.formcontato{
+
+}
+
+/*footeer*/
+
+section.footer{
+   
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
